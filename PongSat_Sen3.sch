@@ -4761,7 +4761,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <part name="I2C" library="SparkFun-Connectors" deviceset="M04" device="SMD"/>
 <part name="P+7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SHT1" library="SparkFun-Sensors" deviceset="SHT1X" device="SMD"/>
+<part name="SHT" library="SparkFun-Sensors" deviceset="SHT1X" device="SMD"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="P+9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
@@ -4771,7 +4771,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10K"/>
 <part name="P+10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$3" library="SparkFun-Sensors" deviceset="BMP085" device=""/>
+<part name="BMP" library="SparkFun-Sensors" deviceset="BMP085" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="4.7K"/>
@@ -4839,21 +4839,21 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 </instance>
 <instance part="GND5" gate="1" x="187.96" y="193.04" rot="R270"/>
 <instance part="P+1" gate="G$1" x="208.28" y="220.98"/>
-<instance part="C5" gate="G$1" x="22.86" y="210.82"/>
-<instance part="GND6" gate="1" x="22.86" y="200.66"/>
-<instance part="U1" gate="G$1" x="104.14" y="213.36"/>
-<instance part="P+2" gate="G$1" x="142.24" y="226.06"/>
-<instance part="GND7" gate="1" x="88.9" y="200.66"/>
-<instance part="C6" gate="G$1" x="76.2" y="213.36"/>
-<instance part="GND8" gate="1" x="76.2" y="200.66"/>
-<instance part="D1" gate="G$1" x="66.04" y="218.44"/>
-<instance part="F1" gate="G$1" x="53.34" y="218.44"/>
-<instance part="C7" gate="G$1" x="121.92" y="210.82"/>
-<instance part="C8" gate="G$1" x="132.08" y="208.28"/>
-<instance part="C9" gate="G$1" x="142.24" y="208.28"/>
-<instance part="GND9" gate="1" x="121.92" y="200.66"/>
-<instance part="GND10" gate="1" x="132.08" y="200.66"/>
-<instance part="GND11" gate="1" x="142.24" y="200.66"/>
+<instance part="C5" gate="G$1" x="40.64" y="208.28"/>
+<instance part="GND6" gate="1" x="40.64" y="200.66"/>
+<instance part="U1" gate="G$1" x="99.06" y="213.36"/>
+<instance part="P+2" gate="G$1" x="137.16" y="226.06"/>
+<instance part="GND7" gate="1" x="83.82" y="200.66"/>
+<instance part="C6" gate="G$1" x="71.12" y="213.36"/>
+<instance part="GND8" gate="1" x="71.12" y="200.66"/>
+<instance part="D1" gate="G$1" x="63.5" y="218.44"/>
+<instance part="F1" gate="G$1" x="50.8" y="218.44"/>
+<instance part="C7" gate="G$1" x="116.84" y="210.82"/>
+<instance part="C8" gate="G$1" x="127" y="208.28"/>
+<instance part="C9" gate="G$1" x="137.16" y="208.28"/>
+<instance part="GND9" gate="1" x="116.84" y="200.66"/>
+<instance part="GND10" gate="1" x="127" y="200.66"/>
+<instance part="GND11" gate="1" x="137.16" y="200.66"/>
 <instance part="P+4" gate="G$1" x="215.9" y="213.36"/>
 <instance part="R4" gate="G$1" x="259.08" y="127" rot="R90"/>
 <instance part="R5" gate="G$1" x="271.78" y="127" rot="R90"/>
@@ -4867,7 +4867,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <instance part="I2C" gate="G$1" x="327.66" y="195.58"/>
 <instance part="P+7" gate="G$1" x="337.82" y="215.9"/>
 <instance part="GND13" gate="1" x="335.28" y="185.42"/>
-<instance part="SHT1" gate="G$1" x="76.2" y="137.16" rot="R180"/>
+<instance part="SHT" gate="G$1" x="76.2" y="137.16" rot="R180"/>
 <instance part="GND14" gate="1" x="86.36" y="116.84"/>
 <instance part="P+8" gate="G$1" x="86.36" y="152.4"/>
 <instance part="P+9" gate="G$1" x="60.96" y="152.4"/>
@@ -4877,7 +4877,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <instance part="R7" gate="G$1" x="96.52" y="127" rot="R90"/>
 <instance part="P+10" gate="G$1" x="99.06" y="152.4"/>
 <instance part="GND16" gate="1" x="96.52" y="116.84"/>
-<instance part="U$3" gate="G$1" x="81.28" y="45.72"/>
+<instance part="BMP" gate="G$1" x="81.28" y="45.72"/>
 <instance part="GND17" gate="1" x="66.04" y="33.02"/>
 <instance part="P+11" gate="G$1" x="55.88" y="55.88"/>
 <instance part="R8" gate="G$1" x="96.52" y="58.42" rot="R90"/>
@@ -4947,33 +4947,33 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="22.86" y1="208.28" x2="22.86" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="205.74" x2="40.64" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="93.98" y1="213.36" x2="88.9" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="213.36" x2="88.9" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="213.36" x2="83.82" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="213.36" x2="83.82" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="-"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="76.2" y1="208.28" x2="76.2" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="208.28" x2="71.12" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="-"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="121.92" y1="205.74" x2="121.92" y2="203.2" width="0.2032" layer="91"/>
+<wire x1="116.84" y1="205.74" x2="116.84" y2="203.2" width="0.2032" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="132.08" y1="205.74" x2="132.08" y2="203.2" width="0.2032" layer="91"/>
+<wire x1="127" y1="205.74" x2="127" y2="203.2" width="0.2032" layer="91"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="142.24" y1="205.74" x2="142.24" y2="203.2" width="0.2032" layer="91"/>
+<wire x1="137.16" y1="205.74" x2="137.16" y2="203.2" width="0.2032" layer="91"/>
 </segment>
 <segment>
 <pinref part="32U4" gate="G$1" pin="UGND"/>
@@ -5018,7 +5018,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SHT1" gate="G$1" pin="GND"/>
+<pinref part="SHT" gate="G$1" pin="GND"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="83.82" y1="132.08" x2="86.36" y2="132.08" width="0.2032" layer="91"/>
 <wire x1="86.36" y1="132.08" x2="86.36" y2="119.38" width="0.2032" layer="91"/>
@@ -5034,7 +5034,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <wire x1="96.52" y1="119.38" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="BMP" gate="G$1" pin="GND"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="71.12" y1="40.64" x2="66.04" y2="40.64" width="0.2032" layer="91"/>
 <wire x1="66.04" y1="40.64" x2="66.04" y2="35.56" width="0.2032" layer="91"/>
@@ -5110,13 +5110,12 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="218.44" x2="38.1" y2="218.44" width="0.1524" layer="91"/>
-<label x="38.1" y="218.44" size="1.778" layer="95"/>
-</segment>
-<segment>
+<wire x1="45.72" y1="218.44" x2="40.64" y2="218.44" width="0.1524" layer="91"/>
+<label x="30.48" y="218.44" size="1.778" layer="95"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="215.9" x2="22.86" y2="223.52" width="0.1524" layer="91"/>
-<label x="25.4" y="226.06" size="1.778" layer="95" rot="R180"/>
+<wire x1="40.64" y1="218.44" x2="30.48" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="213.36" x2="40.64" y2="218.44" width="0.1524" layer="91"/>
+<junction x="40.64" y="218.44"/>
 </segment>
 <segment>
 <pinref part="BATT" gate="G$1" pin="2"/>
@@ -5183,7 +5182,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <wire x1="332.74" y1="198.12" x2="350.52" y2="198.12" width="0.2032" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="SDA"/>
+<pinref part="BMP" gate="G$1" pin="SDA"/>
 <wire x1="93.98" y1="48.26" x2="104.14" y2="48.26" width="0.2032" layer="91"/>
 <label x="109.22" y="48.26" size="1.778" layer="95"/>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -5204,7 +5203,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <label x="345.44" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="SCL"/>
+<pinref part="BMP" gate="G$1" pin="SCL"/>
 <wire x1="93.98" y1="45.72" x2="96.52" y2="45.72" width="0.2032" layer="91"/>
 <label x="109.22" y="45.72" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -5250,20 +5249,20 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 </segment>
 <segment>
 <pinref part="P+2" gate="G$1" pin="3.3V"/>
-<wire x1="142.24" y1="226.06" x2="142.24" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="226.06" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="218.44" x2="132.08" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="218.44" x2="121.92" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="218.44" x2="111.76" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="213.36" x2="142.24" y2="218.44" width="0.2032" layer="91"/>
+<wire x1="137.16" y1="218.44" x2="127" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="127" y1="218.44" x2="116.84" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="218.44" x2="106.68" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="213.36" x2="137.16" y2="218.44" width="0.2032" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="213.36" x2="132.08" y2="218.44" width="0.2032" layer="91"/>
+<wire x1="127" y1="213.36" x2="127" y2="218.44" width="0.2032" layer="91"/>
 <pinref part="C7" gate="G$1" pin="+"/>
-<wire x1="121.92" y1="213.36" x2="121.92" y2="218.44" width="0.2032" layer="91"/>
-<junction x="121.92" y="218.44"/>
-<junction x="132.08" y="218.44"/>
-<junction x="142.24" y="218.44"/>
+<wire x1="116.84" y1="213.36" x2="116.84" y2="218.44" width="0.2032" layer="91"/>
+<junction x="116.84" y="218.44"/>
+<junction x="127" y="218.44"/>
+<junction x="137.16" y="218.44"/>
 </segment>
 <segment>
 <pinref part="32U4" gate="G$1" pin="AVCC@44"/>
@@ -5308,7 +5307,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <segment>
 <pinref part="P+8" gate="G$1" pin="3.3V"/>
 <wire x1="86.36" y1="152.4" x2="86.36" y2="139.7" width="0.2032" layer="91"/>
-<pinref part="SHT1" gate="G$1" pin="VDD"/>
+<pinref part="SHT" gate="G$1" pin="VDD"/>
 <wire x1="86.36" y1="139.7" x2="83.82" y2="139.7" width="0.2032" layer="91"/>
 </segment>
 <segment>
@@ -5322,11 +5321,11 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <wire x1="99.06" y1="149.86" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="VDDA"/>
+<pinref part="BMP" gate="G$1" pin="VDDA"/>
 <wire x1="71.12" y1="48.26" x2="66.04" y2="48.26" width="0.2032" layer="91"/>
 <wire x1="66.04" y1="48.26" x2="55.88" y2="48.26" width="0.2032" layer="91"/>
 <wire x1="55.88" y1="48.26" x2="55.88" y2="55.88" width="0.2032" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VDDD"/>
+<pinref part="BMP" gate="G$1" pin="VDDD"/>
 <wire x1="71.12" y1="45.72" x2="66.04" y2="45.72" width="0.2032" layer="91"/>
 <wire x1="66.04" y1="45.72" x2="66.04" y2="48.26" width="0.2032" layer="91"/>
 <junction x="66.04" y="48.26"/>
@@ -5360,26 +5359,26 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <net name="RAW" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="EN"/>
-<wire x1="93.98" y1="208.28" x2="83.82" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="208.28" x2="83.82" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="208.28" x2="78.74" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="208.28" x2="78.74" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="83.82" y1="218.44" x2="93.98" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="218.44" x2="88.9" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="+"/>
-<wire x1="83.82" y1="218.44" x2="76.2" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="218.44" x2="76.2" y2="215.9" width="0.1524" layer="91"/>
-<junction x="83.82" y="218.44"/>
-<wire x1="76.2" y1="218.44" x2="76.2" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="218.44" x2="71.12" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="218.44" x2="71.12" y2="215.9" width="0.1524" layer="91"/>
+<junction x="78.74" y="218.44"/>
+<wire x1="71.12" y1="218.44" x2="71.12" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="68.58" y1="218.44" x2="76.2" y2="218.44" width="0.1524" layer="91"/>
-<junction x="76.2" y="218.44"/>
-<label x="76.2" y="226.06" size="1.778" layer="95"/>
+<wire x1="66.04" y1="218.44" x2="71.12" y2="218.44" width="0.1524" layer="91"/>
+<junction x="71.12" y="218.44"/>
+<label x="71.12" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="60.96" y1="218.44" x2="63.5" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="218.44" x2="60.96" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXLED" class="0">
@@ -5410,10 +5409,15 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <wire x1="200.66" y1="35.56" x2="210.82" y2="35.56" width="0.2032" layer="91"/>
 <label x="208.28" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="32U4" gate="G$1" pin="PC6"/>
+<wire x1="254" y1="170.18" x2="261.62" y2="170.18" width="0.2032" layer="91"/>
+<label x="256.54" y="170.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="HTCK" class="0">
 <segment>
-<pinref part="SHT1" gate="G$1" pin="SCK"/>
+<pinref part="SHT" gate="G$1" pin="SCK"/>
 <wire x1="83.82" y1="137.16" x2="96.52" y2="137.16" width="0.2032" layer="91"/>
 <label x="101.6" y="137.16" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -5429,7 +5433,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 </net>
 <net name="HTDAT" class="0">
 <segment>
-<pinref part="SHT1" gate="G$1" pin="DATA"/>
+<pinref part="SHT" gate="G$1" pin="DATA"/>
 <wire x1="83.82" y1="134.62" x2="99.06" y2="134.62" width="0.2032" layer="91"/>
 <label x="101.6" y="134.62" size="1.778" layer="95"/>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -5438,23 +5442,23 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <junction x="99.06" y="134.62"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="160.02" x2="266.7" y2="160.02" width="0.2032" layer="91"/>
-<label x="259.08" y="160.02" size="1.778" layer="95"/>
-<pinref part="32U4" gate="G$1" pin="PC6"/>
-<wire x1="254" y1="170.18" x2="256.54" y2="170.18" width="0.2032" layer="91"/>
-<wire x1="256.54" y1="170.18" x2="256.54" y2="160.02" width="0.2032" layer="91"/>
+<pinref part="32U4" gate="G$1" pin="PC7"/>
+<wire x1="254" y1="149.86" x2="256.54" y2="149.86" width="0.2032" layer="91"/>
+<wire x1="256.54" y1="149.86" x2="256.54" y2="154.94" width="0.2032" layer="91"/>
+<wire x1="256.54" y1="154.94" x2="266.7" y2="154.94" width="0.2032" layer="91"/>
+<label x="259.08" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EOC" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="EOC"/>
+<pinref part="BMP" gate="G$1" pin="EOC"/>
 <wire x1="93.98" y1="43.18" x2="106.68" y2="43.18" width="0.2032" layer="91"/>
 <label x="101.6" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XCLR" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="XCLR"/>
+<pinref part="BMP" gate="G$1" pin="XCLR"/>
 <wire x1="93.98" y1="40.64" x2="106.68" y2="40.64" width="0.2032" layer="91"/>
 <label x="101.6" y="40.64" size="1.778" layer="95"/>
 </segment>
