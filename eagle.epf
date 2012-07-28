@@ -1,0 +1,35 @@
+[Eagle]
+Version="06 02 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/atmel.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/LilyPad-Wearables.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-Aesthetics.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-AnalogIC.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-Boards.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-DigitalIC.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-Connectors.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-Displays.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-Electromechanical.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-FreqCtrl.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-LED.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-Passives.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-PowerIC.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-RF.lbr"
+UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-Sensors.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="81 105 680 504"
+State=1
+Number=0
+
+[Desktop]
+Screen="1024 768"
+Window="Win_1"
