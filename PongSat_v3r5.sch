@@ -4758,7 +4758,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <part name="U2" library="SparkFun-Connectors" deviceset="USD-SOCKET" device="NEW" value="Micro SD"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="I2C" library="SparkFun-Connectors" deviceset="M04" device="SMD" value="3.3V"/>
+<part name="I2C" library="SparkFun-Connectors" deviceset="M04" device="PTH" value="3.3V"/>
 <part name="P+7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SHT" library="SparkFun-Sensors" deviceset="SHT1X" device="SMD"/>

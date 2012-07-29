@@ -27,7 +27,7 @@ UsedLibrary="/Applications/EAGLE-6.2.0/lbr/SparkFun-Library/SparkFun-Sensors.lbr
 [Win_1]
 Type="Control Panel"
 Loc="81 105 680 504"
-State=1
+State=3
 Number=0
 
 [Desktop]
