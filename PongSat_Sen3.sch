@@ -4758,7 +4758,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <part name="U2" library="SparkFun-Connectors" deviceset="USD-SOCKET" device="NEW" value="Micro SD"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="I2C" library="SparkFun-Connectors" deviceset="M04" device="SMD"/>
+<part name="I2C" library="SparkFun-Connectors" deviceset="M04" device="SMD" value="3.3V"/>
 <part name="P+7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SHT" library="SparkFun-Sensors" deviceset="SHT1X" device="SMD"/>
@@ -4780,7 +4780,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <part name="P+13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP" value="100nF"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BATT" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="BATT" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="~6V"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -5332,6 +5332,7 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <pinref part="P+11" gate="G$1" pin="3.3V"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="48.26" x2="55.88" y2="45.72" width="0.2032" layer="91"/>
+<junction x="55.88" y="48.26"/>
 </segment>
 <segment>
 <pinref part="P+12" gate="G$1" pin="3.3V"/>
@@ -5466,6 +5467,18 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,106.68,208.28,U1,BP,,,,"/>
+<approved hash="104,1,83.82,139.7,SHT,VDD,3.3V,,,"/>
+<approved hash="104,1,71.12,45.72,BMP,VDDD,3.3V,,,"/>
+<approved hash="104,1,71.12,48.26,BMP,VDDA,3.3V,,,"/>
+<approved hash="106,1,93.98,43.18,EOC,,,,,"/>
+<approved hash="106,1,254,182.88,RXO,,,,,"/>
+<approved hash="106,1,254,180.34,TXO,,,,,"/>
+<approved hash="209,1,93.98,40.64,XCLR,,,,,"/>
+<approved hash="106,1,93.98,40.64,XCLR,,,,,"/>
+<approved hash="115,1,63.5,218.927,D1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
