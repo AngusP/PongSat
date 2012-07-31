@@ -10,7 +10,7 @@ AutoSaveProject=1
 
 [Win_1]
 Type="Schematic Editor"
-Loc="81 105 680 504"
+Loc="256 208 855 607"
 State=0
 Number=2
 File="PongSat_v3r6.sch"
