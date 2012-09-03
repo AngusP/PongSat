@@ -8487,6 +8487,8 @@ Sensirion humdity sensor. Schematic element and footprint proven. Spark Fun Elec
 <text x="309.88" y="231.14" size="5.08" layer="97">I2C Interface</text>
 <text x="304.8" y="144.78" size="5.08" layer="97">USB from AtMega</text>
 <text x="307.34" y="76.2" size="5.08" layer="97">Battery Input</text>
+<text x="269.24" y="157.48" size="1.778" layer="97">DIO 10</text>
+<text x="269.24" y="154.94" size="1.778" layer="97">DIO 13</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
