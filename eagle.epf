@@ -7,6 +7,9 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="/Users/anguspearson/Documents/eagle/AngusP's Eagle Libraries/AngusP_Aesthetic.lbr"
+UsedLibrary="/Users/anguspearson/Documents/eagle/AngusP's Eagle Libraries/AngusP_AnalogueIC.lbr"
+UsedLibrary="/Users/anguspearson/Documents/eagle/AngusP's Eagle Libraries/AngusP_Boards.lbr"
 UsedLibrary="/Users/anguspearson/Documents/eagle/SparkFun-Eagle-Libraries/LilyPad-Wearables.lbr"
 UsedLibrary="/Users/anguspearson/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-Aesthetics.lbr"
 UsedLibrary="/Users/anguspearson/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-AnalogIC.lbr"
@@ -21,11 +24,12 @@ UsedLibrary="/Users/anguspearson/Documents/eagle/SparkFun-Eagle-Libraries/SparkF
 UsedLibrary="/Users/anguspearson/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-Passives.lbr"
 UsedLibrary="/Users/anguspearson/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-PowerIC.lbr"
 UsedLibrary="/Users/anguspearson/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-RF.lbr"
+UsedLibrary="/Users/anguspearson/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-Resistors.lbr"
 UsedLibrary="/Users/anguspearson/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-Sensors.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="135 175 734 574"
+Loc="30 60 1023 702"
 State=1
 Number=0
 

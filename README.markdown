@@ -25,4 +25,4 @@ using that.</p>
 guarantee of it being assemble-able, let alone functional. You do that at your own risk. 
 After I have made on then I will say whether it works or not...</p>
 
-<p>This project is licensed under the WTFPL (so it is in the public domain)</p>
+<p>This project is in the public domain.</p>
